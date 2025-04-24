@@ -1,0 +1,189 @@
+name: focus_ui_kit_starter
+description: "A starter project for the Focus UI kit"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Dart and other language essentials
+  logger: ^2.5.0
+  http: ^1.3.0
+  basic_utils: ^5.8.2
+  enum_to_string: ^2.2.1
+  tuple: ^2.0.2
+  go_router: ^14.8.1
+  i18n_extension: ^15.0.4
+  intl: ^0.20.1
+  flutter_bloc: ^9.1.0
+  quiver: ^3.2.2
+  url_launcher: ^6.3.1
+
+  # Icons
+  cupertino_icons: ^1.0.8
+  icons_plus: ^5.0.0
+  lottie: ^3.3.1
+
+  # Responsive or Layout Related
+  responsive_grid: ^2.4.4
+  responsive_framework: ^1.5.1
+  align_positioned: ^5.0.1
+
+  # UI Components
+  animated_splash_screen: ^1.3.0
+  expandable: ^5.0.1
+  easy_rich_text: ^2.2.0
+  indent: ^2.0.0
+  highlight: ^0.7.0
+  flutter_highlight: ^0.7.0
+  code_text_field: ^1.1.0
+  mask_text_input_formatter: ^2.9.0
+  multi_select_flutter: ^4.1.3
+  calendar_date_picker2: ^2.0.0
+  select2dot1: ^2.0.9
+  group_radio_button: ^1.3.0
+  file_picker: ^9.2.1
+  flutter_dropzone: ^4.2.1
+  color_shade: ^1.0.1
+  numberpicker: ^2.1.2
+  graphic: ^2.5.1
+  data_table_2: ^2.6.0
+  wheel_slider: ^1.2.2
+  avatar_stack: ^1.2.0
+  scrollable_positioned_list: ^0.3.8
+  dotted_border: ^2.1.0
+  animated_list_plus: ^0.5.2
+  step_progress_indicator: ^1.0.2
+  flutter_gradient_colors: ^2.1.1
+  textfield_tags: ^3.0.1
+  octo_image: ^2.1.0
+  flutter_blurhash: ^0.8.2
+  blurhash_dart: ^1.2.1
+  timeline_tile: ^2.0.0
+  chart_sparkline: ^1.1.1
+  flutter_slider_drawer: ^3.0.2
+
+  # Forms
+  formz: ^0.8.0
+  email_validator: ^3.0.0
+
+  # Animation
+  flutter_animator: ^3.2.2
+  animations: ^2.0.11
+
+  # Modals and notification
+  modals: ^1.0.0+1
+  just_the_tooltip: ^0.0.12
+  in_app_notification: ^1.1.2
+  popover: ^0.3.1
+  oktoast: ^3.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  ## Assets
+  assets:
+    - assets/lottie/
+    - assets/svg/
+
+  ## Fonts
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: fonts/inter/Inter-Thin.otf
+          weight: 100
+        - asset: fonts/inter/Inter-ThinItalic.otf
+          weight: 100
+          style: italic
+        - asset: fonts/inter/Inter-ExtraLight.otf
+          weight: 200
+        - asset: fonts/inter/Inter-ExtraLightItalic.otf
+          weight: 200
+          style: italic
+        - asset: fonts/inter/Inter-Light.otf
+          weight: 300
+        - asset: fonts/inter/Inter-LightItalic.otf
+          weight: 300
+          style: italic
+        - asset: fonts/inter/Inter-Regular.otf
+          weight: 400
+        - asset: fonts/inter/Inter-Italic.otf
+          weight: 400
+          style: italic
+        - asset: fonts/inter/Inter-Medium.otf
+          weight: 500
+        - asset: fonts/inter/Inter-MediumItalic.otf
+          weight: 500
+          style: italic
+        - asset: fonts/inter/Inter-SemiBold.otf
+          weight: 600
+        - asset: fonts/inter/Inter-SemiBoldItalic.otf
+          weight: 600
+          style: italic
+        - asset: fonts/inter/Inter-Bold.otf
+          weight: 700
+        - asset: fonts/inter/Inter-BoldItalic.otf
+          weight: 700
+          style: italic
+        - asset: fonts/inter/Inter-ExtraBold.otf
+          weight: 800
+        - asset: fonts/inter/Inter-ExtraBoldItalic.otf
+          weight: 800
+          style: italic
+        - asset: fonts/inter/Inter-Black.otf
+          weight: 900
+        - asset: fonts/inter/Inter-BlackItalic.otf
+          weight: 900
+          style: italic
+    - family: JetBrainsMono
+      fonts:
+        - asset: fonts/jetbrains-mono/JetBrainsMono-Thin.ttf
+          weight: 100
+        - asset: fonts/jetbrains-mono/JetBrainsMono-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: fonts/jetbrains-mono/JetBrainsMono-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/jetbrains-mono/JetBrainsMono-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: fonts/jetbrains-mono/JetBrainsMono-Light.ttf
+          weight: 300
+        - asset: fonts/jetbrains-mono/JetBrainsMono-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: fonts/jetbrains-mono/JetBrainsMono-Regular.ttf
+          weight: 400
+        - asset: fonts/jetbrains-mono/JetBrainsMono-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: fonts/jetbrains-mono/JetBrainsMono-Medium.ttf
+          weight: 500
+        - asset: fonts/jetbrains-mono/JetBrainsMono-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: fonts/jetbrains-mono/JetBrainsMono-SemiBold.ttf
+          weight: 600
+        - asset: fonts/jetbrains-mono/JetBrainsMono-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: fonts/jetbrains-mono/JetBrainsMono-Bold.ttf
+          weight: 700
+        - asset: fonts/jetbrains-mono/JetBrainsMono-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: fonts/jetbrains-mono/JetBrainsMono-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/jetbrains-mono/JetBrainsMono-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic

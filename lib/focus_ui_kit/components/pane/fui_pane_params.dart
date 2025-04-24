@@ -1,0 +1,4 @@
+enum FUIPanePaceBarPosition {
+  top,
+  bottom,
+}
