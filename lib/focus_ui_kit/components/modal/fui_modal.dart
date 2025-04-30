@@ -184,6 +184,7 @@ class _FUIModalState extends State<FUIModal> {
 
     stackList.add(
       _FUIModalOpacityLayer(
+        fuiColorScheme: widget.fuiColorScheme,
         aniGKey: aniGKey,
         fuiModalController: modalCtrl,
         animationOnClose: widget.animationOnClose,
