@@ -148,7 +148,11 @@ class _FUISpinnerState extends State<FUISpinner> with SingleTickerProviderStateM
   _buildIcon(BuildContext context) {
     return IconTheme.merge(
       data: context.theme.iconTheme.copyWith(
-        color: discernColorByScheme(context, fuiColorScheme: widget.fuiColorScheme),
+        color: discernColorByScheme(
+          context,
+          fuiColorScheme: widget.fuiColorScheme,
+          fallbackColor: fuiColors.primary,
+        ),
         size: FUISpinnerTheme.defaultSize,
       ),
       child: widget.spinnerWidget ??
@@ -158,9 +162,9 @@ class _FUISpinnerState extends State<FUISpinner> with SingleTickerProviderStateM
     );
   }
 
-  _toggleShow(bool show) {
-    if (show != show) {
-      show = show;
+  _toggleShow(bool _show) {
+    if (show != _show) {
+      show = _show;
 
       if (widget.enable && widget.rotationEnable) {
         if (show) {
