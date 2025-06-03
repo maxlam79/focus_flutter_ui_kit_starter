@@ -1,7 +1,7 @@
 name: focus_ui_kit_starter
 description: "A starter project for the Focus UI kit"
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-version: 1.0.0
+version: 1.1.0
 
 environment:
   sdk: ^3.5.2
@@ -10,16 +10,16 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # Dart and other language essentials
+    # Dart and other language essentials
   logger: ^2.5.0
-  http: ^1.3.0
+  http: ^1.4.0
   basic_utils: ^5.8.2
   enum_to_string: ^2.2.1
   tuple: ^2.0.2
-  go_router: ^14.8.1
+  go_router: ^15.1.2
   i18n_extension: ^15.0.4
   intl: ^0.20.1
-  flutter_bloc: ^9.1.0
+  flutter_bloc: ^9.1.1
   quiver: ^3.2.2
   url_launcher: ^6.3.1
 
@@ -43,10 +43,10 @@ dependencies:
   code_text_field: ^1.1.0
   mask_text_input_formatter: ^2.9.0
   multi_select_flutter: ^4.1.3
-  calendar_date_picker2: ^2.0.0
+  calendar_date_picker2: ^2.0.1
   select2dot1: ^2.0.9
   group_radio_button: ^1.3.0
-  file_picker: ^9.2.1
+  file_picker: ^10.1.9
   flutter_dropzone: ^4.2.1
   color_shade: ^1.0.1
   numberpicker: ^2.1.2
@@ -61,7 +61,7 @@ dependencies:
   flutter_gradient_colors: ^2.1.1
   textfield_tags: ^3.0.1
   octo_image: ^2.1.0
-  flutter_blurhash: ^0.8.2
+  flutter_blurhash: ^0.9.1
   blurhash_dart: ^1.2.1
   timeline_tile: ^2.0.0
   chart_sparkline: ^1.1.1

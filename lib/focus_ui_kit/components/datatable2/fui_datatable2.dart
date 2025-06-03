@@ -395,7 +395,7 @@ class _FUIPaginatedDataTable2State extends State<FUIPaginatedDataTable2> with FU
           thickness: WidgetStateProperty.all(FUIScrollViewTheme.thickness),
           radius: Radius.zero,
         ),
-        cardTheme: const CardTheme().copyWith(
+        cardTheme: const CardThemeData().copyWith(
           shape: const RoundedRectangleBorder(
             borderRadius: BorderRadius.zero,
           ),
@@ -665,7 +665,7 @@ class _FUIAsyncPaginatedDataTable2State extends State<FUIAsyncPaginatedDataTable
           thickness: WidgetStateProperty.all(FUIScrollViewTheme.thickness),
           radius: Radius.zero,
         ),
-        cardTheme: const CardTheme().copyWith(
+        cardTheme: const CardThemeData().copyWith(
           shape: const RoundedRectangleBorder(
             borderRadius: BorderRadius.zero,
           ),
