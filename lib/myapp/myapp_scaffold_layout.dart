@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_boxicons/flutter_boxicons.dart';
 import 'package:flutter_slider_drawer/flutter_slider_drawer.dart';
 import 'package:focus_ui_kit_starter/myapp/myapp_router.dart';
 import 'package:go_router/go_router.dart';
-import 'package:icons_plus/icons_plus.dart';
+import 'package:line_awesome_flutter/line_awesome_flutter.dart';
 import 'package:responsive_grid/responsive_grid.dart';
 
 import '../focus_ui_kit/exports.dart';
@@ -101,7 +102,7 @@ class _MyAppScaffoldLayoutState extends State<MyAppScaffoldLayout> {
       FUIMenuItem(
         key: UniqueKey(),
         label: const Text('Pages'),
-        icon: const Icon(LineAwesome.stream_solid),
+        icon: const Icon(LineAwesomeIcons.stream_solid),
         onPressed: () {},
         fuiSubMenuItems: [
           FUISubMenuItem(
@@ -136,7 +137,7 @@ class _MyAppScaffoldLayoutState extends State<MyAppScaffoldLayout> {
           children: [
             FUIButtonLinkIcon(
               fuiButtonSize: FUIButtonSize.small,
-              icon: const Icon(BoxIcons.bx_menu),
+              icon: const Icon(Boxicons.bx_menu),
               onPressed: () => _sliderToggle(),
             ),
             FUISpacer.hSpace20,
@@ -157,13 +158,13 @@ class _MyAppScaffoldLayoutState extends State<MyAppScaffoldLayout> {
           children: [
             FUIButtonLinkIcon(
               fuiButtonSize: FUIButtonSize.small,
-              icon: const Icon(BoxIcons.bx_search),
+              icon: const Icon(Boxicons.bx_search),
               onPressed: () {},
             ),
             FUISpacer.hSpace5,
             FUIButtonLinkIcon(
               fuiButtonSize: FUIButtonSize.small,
-              icon: const Icon(BoxIcons.bx_menu_alt_right),
+              icon: const Icon(Boxicons.bx_menu_alt_right),
               onPressed: () => _drawerEndOpen(),
             ),
           ],
