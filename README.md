@@ -5,7 +5,7 @@ This starter kit is a bare-bone project structure for the Focus Flutter UI Kit.
 ## More Info
 
 The main Focus Flutter UI Kit could be found
-here: [https://github.com/maxlam79/focus_flutter_ui_kit_starter](https://github.com/maxlam79/focus_flutter_ui_kit_starter)
+here: [https://github.com/maxlam79/focus_flutter_ui_kit](https://github.com/maxlam79/focus_flutter_ui_kit)
 
 ## Documentation
 
